@@ -1,0 +1,40 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.loader {
+	margin-top: 20;
+  padding: 20px;
+  margin-left: 50;
+  border: 10px solid black;
+  border-top: 10px solid gray;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  animation: spin 1.7s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+#blocks { 
+	overflow: hidden;
+	position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+	margin-left: 70%;
+}
+#blocks>div {
+	display: inline-block;
+	float: left;
+}
